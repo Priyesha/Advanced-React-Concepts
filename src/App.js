@@ -9,11 +9,11 @@ import ParentFunctional from './components/ParentFunctional'
 function App() {
   return (
     <div className="App">
-      <FragmentDemo/>
+      {/* <FragmentDemo/> */}
       {/* <Table/> */}
       {/* <PureComp/> */}
       <Parent/>
-      <ParentFunctional/>
+      {/* <ParentFunctional/> */}
     </div>
   );
 }

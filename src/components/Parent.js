@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PureComp from "./PureComp";
 import RegComp from "./RegComp";
+import MemoComp from "./memoComp";
 
 export class Parent extends Component {
   constructor() {
@@ -22,8 +23,9 @@ export class Parent extends Component {
     console.log("Parent component render");
     return (
       <div>
-        <PureComp name={this.state.name} />
-        <RegComp name={this.state.name} />
+        {/* <PureComp name={this.state.name} />
+        <RegComp name={this.state.name} /> */}
+        <MemoComp/>
       </div>
     );
   }
