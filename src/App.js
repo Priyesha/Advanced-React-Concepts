@@ -5,6 +5,7 @@ import Table from './components/Table';
 import PureComp from './components/PureComp';
 import Parent from './components/Parent';
 import ParentFunctional from './components/ParentFunctional'
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <Table/> */}
       {/* <PureComp/> */}
-      <Parent/>
+      {/* <Parent/> */}
       {/* <ParentFunctional/> */}
+      <RefsDemo/>
     </div>
   );
 }
