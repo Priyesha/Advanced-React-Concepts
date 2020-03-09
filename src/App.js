@@ -7,6 +7,7 @@ import Parent from './components/Parent';
 import ParentFunctional from './components/ParentFunctional'
 import RefsDemo from './components/RefsDemo';
 import CallbackRefs from './components/CallBackRefs';
+import ClassRef from './components/ClassRef';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Parent/> */}
       {/* <ParentFunctional/> */}
       {/* <RefsDemo/> */}
-      <CallbackRefs/>
+      {/* <CallbackRefs/> */}
+      <ClassRef/>
     </div>
   );
 }
