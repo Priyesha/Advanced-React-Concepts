@@ -6,6 +6,7 @@ import PureComp from './components/PureComp';
 import Parent from './components/Parent';
 import ParentFunctional from './components/ParentFunctional'
 import RefsDemo from './components/RefsDemo';
+import CallbackRefs from './components/CallBackRefs';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <PureComp/> */}
       {/* <Parent/> */}
       {/* <ParentFunctional/> */}
-      <RefsDemo/>
+      {/* <RefsDemo/> */}
+      <CallbackRefs/>
     </div>
   );
 }
