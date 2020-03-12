@@ -9,6 +9,7 @@ import RefsDemo from './components/RefsDemo';
 import CallbackRefs from './components/CallBackRefs';
 import ClassRef from './components/ClassRef';
 import ForwardRefParent from './components/forwardRefParent';
+import Portal from './components/Portal';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <RefsDemo/> */}
       {/* <CallbackRefs/> */}
       {/* <ClassRef/> */}
-      <ForwardRefParent/>
+      {/* <ForwardRefParent/> */}
+      <Portal/>
     </div>
   );
 }
