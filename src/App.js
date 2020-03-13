@@ -10,6 +10,8 @@ import CallbackRefs from './components/CallBackRefs';
 import ClassRef from './components/ClassRef';
 import ForwardRefParent from './components/forwardRefParent';
 import Portal from './components/Portal';
+import CheckName from './components/checkName';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
@@ -23,7 +25,11 @@ function App() {
       {/* <CallbackRefs/> */}
       {/* <ClassRef/> */}
       {/* <ForwardRefParent/> */}
-      <Portal/>
+      {/* <Portal/> */}
+      <ErrorBoundary>
+      <CheckName name="Priyesha"/>
+      <CheckName name="Priyesh"/>
+      </ErrorBoundary>
     </div>
   );
 }
