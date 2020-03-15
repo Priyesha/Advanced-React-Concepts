@@ -1,5 +1,5 @@
 import React from 'react';
-import UpdatedComponent from './hocComponent';
+import withCounter from './hocComponent';
 
 
 function HoverComponent({count, incrementCount}) {
@@ -10,4 +10,4 @@ function HoverComponent({count, incrementCount}) {
     )
 }
 
-export default  UpdatedComponent(HoverComponent);
+export default  withCounter(HoverComponent);
