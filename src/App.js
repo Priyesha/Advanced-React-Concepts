@@ -12,6 +12,8 @@ import ForwardRefParent from './components/forwardRefParent';
 import Portal from './components/Portal';
 import CheckName from './components/checkName';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/clickCounter';
+import HoverComponent from './components/hoverCounter';
 
 function App() {
   return (
@@ -26,10 +28,12 @@ function App() {
       {/* <ClassRef/> */}
       {/* <ForwardRefParent/> */}
       {/* <Portal/> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
       <CheckName name="Priyesha"/>
       <CheckName name="Priyesh"/>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      <ClickCounter/>
+      <HoverComponent/>
     </div>
   );
 }
