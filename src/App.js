@@ -32,7 +32,7 @@ function App() {
       <CheckName name="Priyesha"/>
       <CheckName name="Priyesh"/>
       </ErrorBoundary> */}
-      <ClickCounter/>
+      <ClickCounter name="Priyesha"/>
       <HoverComponent/>
     </div>
   );

@@ -10,4 +10,4 @@ function HoverComponent({count, incrementCount}) {
     )
 }
 
-export default  withCounter(HoverComponent);
+export default  withCounter(HoverComponent, 5);
